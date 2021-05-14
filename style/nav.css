@@ -1,0 +1,70 @@
+/* Navigation Menu */
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    grid-column: span 3;
+}
+
+.nav-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: justify center;
+    /* border: 1px solid #F7C9B6; */
+    padding: 15px;
+    /* position: sticky; */
+}
+
+.nav-flex-item {
+    max-width: 100%;
+}
+
+.search-box {
+    background: #fff;
+    /* border-radius: 18px; */
+    overflow: hidden;
+    margin-left: auto;
+    /* To align one flex child to the right set it with margin-left: auto;*/
+}
+
+.search-box.form-control {
+    width: 100%;
+    border: 0;
+    height: 36px;
+    padding: 0 10px;
+}
+
+.search-box.btn {
+    height: 36px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+}
+
+#nav-menu {
+    font: 16px Cinzel;
+    color: #A5B880;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#nav-menu a {
+    padding: 14px 20px;
+}
+
+#nav-menu a:hover {
+    color: #549BAD;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="style/home.css">
+	<link rel="stylesheet" href="style/header.css"> 
+	<link rel="stylesheet" href="style/nav.css">
+	<link rel="stylesheet" href="style/section.css">
+	<link rel="stylesheet" href="style/sidebar.css">
+	<link rel="stylesheet" href="style/footer.css">
+</head>
+
+<body>
+	<div class="container">
+		<!-- Header with LOGO -->
+		<header class="header-flex-item">
+			<div class="header-title">
+				<a href="index.html">VINEYARD</a>
+			</div>
+		</header>
+
+
+		<!-- Navigation Menu -->
+		<div class="navbar nav-flex">
+			<div class="nav-flex-item">
+				<nav id="nav-menu">
+					<ul>
+						<a href="index.html">HOME</a>
+						<a href="#">FOOD</a>
+						<a href="#">PHOTOGRAPHY</a>
+						<a href="#">TRAVEL</a>
+						<a href="#">ABOUT</a>
+						<a href="#">CONTACT</a>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="nav-flex-item search-box">
+				<input type="text" class="form-control" placeholder="">
+				<button class="btn" type=”button”>Search</button>
+			</div>
+
+		</div>
+
+		<div id="banner-grid">
+			<div class="banner-child">
+				<img src="images/photography.jpeg" alt="kids photography">
+				<div class="banner-child-text">
+					<h1>Travel</h1>
+					<h1>and</h1>
+					<h1>Photography</h1>
+				</div>
+				
+			</div>
+		</div>
+
+		<!-- Left Section is Blog Post -->
+        <div id="feature-post-grid">
+			<!-- <p style="font-size: 24px; text-transform: uppercase; text-align: center; color: #777;">FEATURE POSTS</p> -->
+			<div class="feature-post">
+				<div class="feature-post-child" id="home-blog-card">
+					<div class="feature-post-child-card">
+						<img src="images/spring1.jpg" alt="spring Picture">
+					</div>
+					<div style="padding-left: 10px;" class="feature-post-child-card">
+						<h1>Spring in San Francisco</h1>
+						<p>spring flowers shot during Pandemic.</p>
+						<p style="font-size: 16px;"><a href="blog post.html">READ MORE</a></p>
+					</div>
+					
+				</div>
+				<div class="feature-post-child" id="home-blog-card">
+					<div class="feature-post-child-card">
+						<img src="images/halfmoon-bay.JPG" alt="haldmoon bay">
+					</div>
+					<div style="padding-left: 10px;" class="feature-post-child-card">
+						<h1>WEEKEND GETAWAY TO HALFMOON BAY</h1>
+						<p>Only half an hour drive from San Francisco.</p>
+						<p style="font-size: 16px;"><a href="blog post.html">READ MORE</a></p>
+					</div>
+				
+				</div>
+				<div class="feature-post-child" id="home-blog-card">
+					<div class="feature-post-child-card">
+						<img src="images/photography.jpeg" alt="kids photography">
+					</div>
+					<div style="padding-left: 10px;" class="feature-post-child-card">
+						<h1>photography in South Padre Island</h1>
+						<p>Learn more about travel and family photography.</p>
+						<p style="font-size: 16px;"><a href="blog post.html">READ MORE</a></p>
+					</div>			
+				</div>
+			</div>
+
+		</div>
+
+		 <!-- Right Sidebar -->
+		 <aside class="sidebar">
+			<div class="sidebar-flex-item">
+				<div class="sidebar-flex-item-child" style="height:150px; padding: 20px; background-color:#F0E1DE;">
+					<!-- <p style="text-align: center;">ABOUT ME</p> -->
+					<img style="margin: 50px 60px 0 80px;" id="avatar" src="images/avatar.png"
+						alt="Liyao Jiang's Profile Picture">
+				</div>
+
+				<div class="sidebar-flex-item-child" id="name">
+					<p style="text-align: center;"><span>Liyao Jiang | Front-end Developer</span></p>
+				</div>
+
+				<div class="sidebar-flex-item-child">
+					<p style="text-align: center; padding: 0 10px 0 10px">
+						I currently work at Yadav Diamonds and Jewelry. In my free time, I love cooking, baking, and
+						photography. Learn more about my life, feel free to connect me on social media!
+					</p>
+					<p style="text-align: center;"><a href="javascript:void()">READ MORE</a></p>
+				</div>
+
+				<div class="sidebar-flex-item-child">
+					<div id="social-media">
+						<a id="gap" href="https://github.com/"><img src="images/github.png" alt="github icon"></a>
+						<a id="gap" href="https://linkedin.com/"><img src="images/linkedin.png" alt="linkedin icon"></a>
+						<a id="gap" href=""><img src="images/email.png" alt="email icon"></a>
+						<a id="gap" href="https://twitter.com/"><img src="images/twitter.png" alt="twitter icon"></a>
+						<a id="gap" href="https://instagram.com/"><img src="images/ins.png" alt="instagram icon"></a>
+						<a id="gap" href="https://facebook.com/"><img src="images/facebook.png" alt="facebook icon"></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="sidebar-flex-item" id="subscribe">
+				<div class="sidebar-flex-item-child" id="subscribe-text">
+					<p style="color:#fff;">Let the posts<br>come to you.</p>
+				</div>
+				<div class="sidebar-flex-item-child">
+					<form action="javascript:void()"> <!-- javascript:void() prevent jumping to top of the page
+					-->
+						<div id="subscribe-email">
+							<p style="color:#fff; text-align: left; padding-left: 53px;">Email*</p>
+							<input type="email" name="email" placeholder="">
+						</div>
+						<div id="subscribe-button">
+							<input type="submit" onclick="subscribed()" value="Subscribe">
+							<p id="subscribed"></p>
+						</div>
+					</form>
+
+				</div>
+			</div>
+		</aside>
+
+		
+
+		<!-- Footer Menu -->
+		<footer class="footer-flex-item">
+			© 2021 VINEYARD. ALL RIGHTS RESERVED.
+		</footer>
+	</div>
+
+
+	<script>
+		//Make the whole div clickable 
+		// $(document).delegate("div", "click", function () {
+		// 	window.location = $(this).find("a").attr("href");
+		// });
+		function subscribed() {
+			document.getElementById("subscribed").innerHTML = "Subscribed!";
+		}
+
+		// When the user scrolls the page, execute myFunction
+		window.onscroll = function () { myFunction() };
+
+		// Get the navbar
+		var navbar = document.getElementById("nav-menu");
+
+		// Get the offset position of the navbar
+		var sticky = nav - menu.offsetTop;
+
+		// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+		function myFunction() {
+			if (window.pageYOffset >= sticky) {
+				nav - menu.classList.add("sticky")
+			} else {
+				nav - menu.classList.remove("sticky");
+			}
+		}
+	</script>
+
+</body>
+
+</html>

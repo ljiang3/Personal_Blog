@@ -1,0 +1,15 @@
+
+/* Footer */
+
+footer {
+    grid-column: span 3;
+}
+
+.footer-flex-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid #F7C9B6; */
+    margin: 40px 0 10px 0;
+}
