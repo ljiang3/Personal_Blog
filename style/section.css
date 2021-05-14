@@ -32,41 +32,39 @@ section {
     max-width: 100%;
 }
 
-.blog-post-child h1{
+.blog-post-child h1 {
     text-align: center;
     font-size: 16px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 0.5px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     color: #968f8f;
 }
 
-.blog-post-child h2{
+.blog-post-child h2 {
     text-align: center;
     font-size: 22px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 0.5px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     color: #968f8f;
 }
 
-.blog-post-child p{
+.blog-post-child p {
     padding: 0 10px 0 10px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 0.5px;
     color: #444;
-    
 }
 
-.blog-post-child video{
+.blog-post-child video {
     width: 100%;
     height: 100%;
 }
 
-@media only screen and (max-width: 896px){
+@media only screen and (max-width: 896px) {
     section {
         grid-column: span 3;
         margin: 0 10px 20px 10px;
-    }  
-
+    }
 }

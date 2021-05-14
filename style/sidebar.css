@@ -26,7 +26,7 @@ aside {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    background:#fff;
+    background: #fff;
 }
 
 .sidebar-flex-item-child {
@@ -34,19 +34,21 @@ aside {
     flex: 0 0 100%;
 }
 
-#social-media{
+#social-media {
     text-align: center;
     padding-bottom: 5px;
 }
-#social-media #gap{
-    padding:0 5px 0 5px;
-}
-#social-media img{
-    width: 20px;
-    height:20px;
+
+#social-media #gap {
+    padding: 0 5px 0 5px;
 }
 
-#name{
+#social-media img {
+    width: 20px;
+    height: 20px;
+}
+
+#name {
     padding: 80px 10px 0 0;
 }
 
@@ -60,19 +62,19 @@ aside {
     display: inline-block;
 }
 
-#subscribe{
+#subscribe {
     background-color: #F0E1DE;
 }
 
-#subscribe-text{
+#subscribe-text {
     height: 120px;
-    padding:20px 0 30px 0;
+    padding: 20px 0 30px 0;
     font-size: 22px;
     font-weight: 400;
     letter-spacing: 0.5px;
 }
 
-#subscribe-email input{
+#subscribe-email input {
     border: none;
     border-bottom: 1px solid #fff;
     padding: 5px;
@@ -86,11 +88,12 @@ aside {
     outline: none;
 }
 
-#subscribe-button{
+#subscribe-button {
     height: 160px;
     position: relative;
 }
-#subscribe-button input{
+
+#subscribe-button input {
     position: absolute;
     width: 160px;
     height: 40px;
@@ -100,19 +103,17 @@ aside {
     margin: 20px auto auto auto;
     left: 0;
     right: 0;
-    border:none;
-    color:#777777;
-    font-size: 16px;;
+    border: none;
+    color: #777777;
+    font-size: 16px;
+    ;
 }
 
-@media only screen and (max-width: 896px){
+@media only screen and (max-width: 896px) {
     aside {
         grid-column: span 3;
     }
-
     .sidebar-flex-item {
         width: 80%;
     }
 }
-    
-
