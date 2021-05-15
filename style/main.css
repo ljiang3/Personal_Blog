@@ -1,3 +1,8 @@
+@import "header.css";
+@import "nav.css";
+@import "sidebar.css";
+@import "footer.css";
+@import "section.css";
 * {
     box-sizing: border-box;
 }
