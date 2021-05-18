@@ -93,7 +93,7 @@ body a {
 }
 
 .feature-post-child {
-    max-width: 60%;
+    max-width: 80%;
     margin-bottom: 20px;
     background: #fff;
     display: flex;
@@ -106,10 +106,6 @@ body a {
 
 .feature-post-child-card {
     max-width: 50%;
-}
-
-.feature-post-child-card-text {
-    padding-left: 10px;
 }
 
 .feature-post-child-card a {
